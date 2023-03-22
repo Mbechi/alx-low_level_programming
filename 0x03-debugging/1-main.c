@@ -14,7 +14,6 @@ int main(void)
 	i = 0;
 
 	/**
-	 * Commenting out the loop to avoid infinite looping
 	 * while (i < 10)
 	 * {
 	 * putchar(i);
