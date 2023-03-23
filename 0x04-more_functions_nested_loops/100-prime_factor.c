@@ -4,31 +4,23 @@
 /**
  * main - finds and prints the largest prime factor of 612852475143
  *
- * Return: 0 on success
+ * Return: 0
  */
+
 int main(void)
 {
-	long n = 612852475143;
-	int i;
+	long int n = 612852475143;
+	long int i;
 
-	while (n % 2 == 0)
-	{
-		n /= 2;
-		i = 2;
-	}
-
-	for (i = 3; i <= sqrt(n); i += 2)
+	for (i = 2; i <= n; i++)
 	{
 		while (n % i == 0)
 		{
 			n /= i;
-			if (i > 2)
-				printf("%ld\n", i);
 		}
 	}
 
-	if (n > 2)
-		printf("%ld\n", n);
+	printf("%ld\n", i - 1);
 
 	return (0);
 }
