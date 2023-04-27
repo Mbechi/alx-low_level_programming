@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * list_len = returns the numder of elements in a linked list
+ * list_len - returns the numder of elements in a linked list
  * @h: pointer to the list_t list
  * Return: number of elents in h
  */
