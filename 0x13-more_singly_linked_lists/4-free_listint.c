@@ -5,7 +5,7 @@
  * @head: listint_t list that needs to be freed
  */
 
-void free_listint(listint_t *head);
+void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
