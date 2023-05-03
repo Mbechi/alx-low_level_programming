@@ -5,10 +5,11 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s - more singly linked list
+ * struct listint_s - singly linked list
  * @n: integer
- * @next: pointing to next node
- * Description: more singly linked list node structure for alx project
+ * @next: points to the next node
+ * Description: singly linked list node structure
+ * for alx project
  */
 
 typedef struct listint_s
