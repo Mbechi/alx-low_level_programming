@@ -3,7 +3,7 @@
 /**
  * create_file - function creating a file
  * @filename: pointind to name of file to be creatd
- * @text_contnt: pointing to string to write to fille
+ * @text_content: pointing to string to write to fille
  * Return: -1 if failed, 1 if successful
  */
 
@@ -12,11 +12,11 @@ int create_file(const char *filename, char *text_content)
 	int fd, w, len = 0;
 
 	if (filename == NULL)
-		RETURN (=1);
+		return (-1);
 
-	if (text_contert != NULL)
+	if (text_content != NULL)
 	{
-		for (lean = 0; text_content[len];)
+		for (len = 0; text_content[len];)
 			len++;
 	}
 
